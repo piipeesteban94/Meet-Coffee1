@@ -1,6 +1,33 @@
 body{
     font-family: "Open Sans", sans-serif; 
+    margin:0px 0px 0px 0px;
 }
+#content {
+	padding: 0 !important;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    background-color: #a4452c; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  nav li {
+    display: inline;  
+    margin-right: 100px; 
+  }
+  
+  nav a {
+    color: white;  
+    text-decoration: none; 
+  }
+
+  a img{
+    margin: 10px;
+  }
 
 header{
     background-image: url(../img/bg-hero.png);
@@ -10,10 +37,12 @@ header{
     text-shadow: 0px 3px 6px black;
     text-align: right;
     color: white;
+    margin: 0px 0px 0px;
 }
 
 header h1{
     font-size: 60px;
+    margin-top: 0px;
 }
 
 header h3{
