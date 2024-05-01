@@ -28,7 +28,7 @@ nav ul {
   a img{
     margin: 10px;
   }
-
+ 
 header{
     background-image: url(../img/bg-hero.png);
     background-position: center;
@@ -79,7 +79,7 @@ main p{
 /* caja de la proxima charla */
 #Proxima-Charla{
     background: #a4452c;
-    padding: 100px;
+    padding: 50px;
     color: white;
 }
 
@@ -111,4 +111,21 @@ footer{
 
 i{
     font-size: 30px;
+}
+
+#Eventos-Anteriores {
+    text-align: center;
+    background-color: #a4452c;
+    }
+
+#Eventos-Anteriores img{
+    border-radius: 20px;
+}
+
+#Eventos-Anteriores h2{
+    color: white;
+}
+
+#Eventos-Anteriores h3{
+    color: white;
 }
